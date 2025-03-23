@@ -1,0 +1,312 @@
+{
+    "job_announcements": [
+        {
+            "id": "job_1",
+            "description": "software engineer",
+            "keywords": [
+                "engineer",
+                "software"
+            ],
+            "boolean_query": "(engineer OR software)",
+            "matches": [
+                {
+                    "cv_id": "cv_1",
+                    "cv_description": "software engineer",
+                    "score": 100.00000000000003
+                }
+            ]
+        },
+        {
+            "id": "job_2",
+            "description": "We are hiring a software engineer with the degree of Computer Science and an experience of 1 year.",
+            "keywords": [
+                "computer",
+                "degree",
+                "engineer",
+                "experience",
+                "hiring",
+                "science",
+                "software",
+                "year"
+            ],
+            "boolean_query": "(computer OR degree OR engineer OR experience OR hiring OR science OR software OR year)",
+            "matches": [
+                {
+                    "cv_id": "cv_3",
+                    "cv_description": "software engineer with degree of computer science and 1 year experience\r\n",
+                    "score": 88.31282039194524
+                }
+            ]
+        },
+        {
+            "id": "job_3",
+            "description": "Looking for a Software Developer with experience in Python, JavaScript, and web development frameworks like React",
+            "keywords": [
+                "developer",
+                "development",
+                "experience",
+                "frameworks",
+                "javascript",
+                "like",
+                "looking",
+                "python",
+                "react",
+                "software"
+            ],
+            "boolean_query": "(developer OR development OR experience OR frameworks OR javascript OR like OR looking OR python OR react OR software)",
+            "matches": []
+        },
+        {
+            "id": "job_4",
+            "description": "We are looking for a Software Developer with three years of working experience and skilled in Python and Web Development tools.",
+            "keywords": [
+                "look software",
+                "development",
+                "developer year work",
+                "look",
+                "experience skilled python",
+                "developer year",
+                "development tool",
+                "experience skilled",
+                "developer",
+                "experience"
+            ],
+            "boolean_query": "(look software OR development OR developer year work OR look OR experience skilled python OR developer year OR development tool OR experience skilled OR developer OR experience)",
+            "matches": [
+                {
+                    "cv_id": "cv_4",
+                    "cv_description": "Software Developer with three years of experience and proficient in Python language and web development ",
+                    "score": 52.277868903277955
+                }
+            ]
+        },
+        {
+            "id": "job_5",
+            "description": "Looking for a Data Analyst with experience in SQL, data visualization, and Excel.",
+            "keywords": [
+                "analyst experience sql",
+                "datum",
+                "data analyst",
+                "datum visualization excel",
+                "data",
+                "analyst experience",
+                "datum visualization",
+                "data analyst experience",
+                "analyst",
+                "excel"
+            ],
+            "boolean_query": "(analyst experience sql OR datum OR data analyst OR datum visualization excel OR data OR analyst experience OR datum visualization OR data analyst experience OR analyst OR excel)",
+            "matches": [
+                {
+                    "cv_id": "cv_5",
+                    "cv_description": "Data Analyst with experience in SQL and creating data visualizations using Excel.",
+                    "score": 74.65037241463783
+                }
+            ]
+        },
+        {
+            "id": "job_6",
+            "description": "We need a full-stack web developer with experience in React, Node.js, and MongoDB.",
+            "keywords": [
+                "fullstack web developer",
+                "mongodb",
+                "fullstack web",
+                "experience react",
+                "developer experience react",
+                "experience react nodejs",
+                "developer experience",
+                "fullstack",
+                "developer",
+                "experience"
+            ],
+            "boolean_query": "(fullstack web developer OR mongodb OR fullstack web OR experience react OR developer experience react OR experience react nodejs OR developer experience OR fullstack OR developer OR experience)",
+            "matches": [
+                {
+                    "cv_id": "cv_6",
+                    "cv_description": "Experienced full-stack developer specializing in React, Node.js, and MongoDB for web development.",
+                    "score": 71.08329569868266
+                }
+            ]
+        },
+        {
+            "id": "job_7",
+            "description": "Software Engineer with proficiency in Java, Python, and cloud computing technologies",
+            "keywords": [
+                "java",
+                "engineer proficiency",
+                "cloud computing technology",
+                "cloud",
+                "computing",
+                "computing technology",
+                "engineer",
+                "engineer proficiency java",
+                "java python",
+                "cloud computing"
+            ],
+            "boolean_query": "(java OR engineer proficiency OR cloud computing technology OR cloud OR computing OR computing technology OR engineer OR engineer proficiency java OR java python OR cloud computing)",
+            "matches": [
+                {
+                    "cv_id": "cv_7",
+                    "cv_description": "Software engineer proficient in Java and Python, with experience in cloud computing technologies.",
+                    "score": 77.41665534676822
+                }
+            ]
+        },
+        {
+            "id": "job_8",
+            "description": "Looking to hire product manager with experience in Agile methodologies, project management and leadership skills.",
+            "keywords": [
+                "hire",
+                "experience",
+                "experience agile",
+                "experience agile methodology",
+                "hire product manager",
+                "agile",
+                "agile methodology",
+                "agile methodology project",
+                "leadership",
+                "hire product"
+            ],
+            "boolean_query": "(hire OR experience OR experience agile OR experience agile methodology OR hire product manager OR agile OR agile methodology OR agile methodology project OR leadership OR hire product)",
+            "matches": [
+                {
+                    "cv_id": "cv_8",
+                    "cv_description": "Product manager with strong experience in project management and Agile methodologies.",
+                    "score": 54.46156050403713
+                }
+            ]
+        }
+    ],
+    "cv_records": [
+        {
+            "id": "cv_1",
+            "description": "software engineer",
+            "keywords": [
+                "engineer",
+                "software"
+            ]
+        },
+        {
+            "id": "cv_2",
+            "description": "I graduated with a degree in Computer Science and an experience of 3 years in IT.",
+            "keywords": [
+                "computer",
+                "degree",
+                "experience",
+                "graduated",
+                "science",
+                "years"
+            ]
+        },
+        {
+            "id": "cv_3",
+            "description": "software engineer with degree of computer science and 1 year experience\r\n",
+            "keywords": [
+                "computer",
+                "degree",
+                "engineer",
+                "experience",
+                "science",
+                "software",
+                "year"
+            ]
+        },
+        {
+            "id": "cv_4",
+            "description": "Software Developer with three years of experience and proficient in Python language and web development ",
+            "keywords": [
+                "developer year experience",
+                "development",
+                "experience proficient python",
+                "language web development",
+                "language web",
+                "developer year",
+                "experience proficient",
+                "language",
+                "developer",
+                "experience"
+            ],
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "id": "cv_5",
+            "description": "Data Analyst with experience in SQL and creating data visualizations using Excel.",
+            "keywords": [
+                "create data",
+                "analyst experience sql",
+                "data visualization excel",
+                "data visualization",
+                "create data visualization",
+                "datum",
+                "create",
+                "data",
+                "analyst experience",
+                "analyst"
+            ],
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "id": "cv_6",
+            "description": "Experienced full-stack developer specializing in React, Node.js, and MongoDB for web development.",
+            "keywords": [
+                "development",
+                "experience fullstack developer",
+                "experience fullstack",
+                "fullstack developer",
+                "developer specialize react",
+                "developer specialize",
+                "fullstack developer specialize",
+                "fullstack",
+                "developer",
+                "experience"
+            ],
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "id": "cv_7",
+            "description": "Software engineer proficient in Java and Python, with experience in cloud computing technologies.",
+            "keywords": [
+                "java",
+                "engineer proficient java",
+                "engineer proficient",
+                "cloud computing technology",
+                "cloud",
+                "computing",
+                "computing technology",
+                "engineer",
+                "experience cloud",
+                "cloud computing",
+                "experience"
+            ],
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "id": "cv_8",
+            "description": "Product manager with strong experience in project management and Agile methodologies.",
+            "keywords": [
+                "manager",
+                "experience",
+                "experience project",
+                "agile",
+                "management",
+                "management agile",
+                "agile methodology",
+                "manager strong",
+                "experience project management",
+                "management agile methodology"
+            ],
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0
+        }
+    ],
+    "matches": []
+}

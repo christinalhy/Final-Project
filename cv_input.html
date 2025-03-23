@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Input</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-5">
+    <h2 class="text-center">Enter Your CV</h2>
+    <form method="POST" action="/cv_input" enctype="multipart/form-data" class="p-4 border rounded bg-light">
+        <div class="mb-3">
+            <label class="form-label">Upload CV File</label>
+            <input type="file" class="form-control" name="cv_file" accept=".pdf,.doc,.docx">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Or Enter CV Text</label>
+            <textarea class="form-control" name="cv_text" rows="5" placeholder="Enter Your CV Content..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit CV</button>
+    </form>
+</body>
+</html>
